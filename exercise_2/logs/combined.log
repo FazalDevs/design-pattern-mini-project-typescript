@@ -1,0 +1,101 @@
+{
+  message: 'OfficeManager instance created',
+  level: 'info',
+  service: 'OfficeManager',
+  timestamp: '2025-09-29 20:05:30'
+}
+{
+  message: 'Smart Office Facility Application started',
+  level: 'info',
+  service: 'SmartOfficeFacilityApp',
+  timestamp: '2025-09-29 20:05:30'
+}
+{
+  message: 'Executing command: Configure office with 3 rooms',
+  level: 'info',
+  service: 'CommandInvoker',
+  timestamp: '2025-09-29 20:07:25'
+}
+{
+  message: 'Office configured with 3 rooms',
+  level: 'info',
+  service: 'OfficeManager',
+  timestamp: '2025-09-29 20:07:25'
+}
+{
+  service: 'CommandInvoker',
+  result: {
+    success: true,
+    message: 'Office configured with 3 meeting rooms: Room 1, Room 2, Room 3.'
+  },
+  level: 'info',
+  message: 'Command executed successfully: Configure office with 3 rooms',
+  timestamp: '2025-09-29 20:07:25'
+}
+{
+  message: 'Successfully configured 3 rooms',
+  level: 'info',
+  service: 'ConfigureRoomCountCommand',
+  timestamp: '2025-09-29 20:07:25'
+}
+{
+  message: 'Room 1 initialized with capacity 10',
+  level: 'info',
+  service: 'Room-1',
+  timestamp: '2025-09-29 20:07:25'
+}
+{
+  message: 'Room 2 initialized with capacity 10',
+  level: 'info',
+  service: 'Room-2',
+  timestamp: '2025-09-29 20:07:25'
+}
+{
+  message: 'Room 3 initialized with capacity 10',
+  level: 'info',
+  service: 'Room-3',
+  timestamp: '2025-09-29 20:07:25'
+}
+{
+  message: 'Executing command: Set Room 1 capacity to 10',
+  level: 'info',
+  service: 'CommandInvoker',
+  timestamp: '2025-09-29 20:07:43'
+}
+{
+  message: 'Room 1 capacity updated to 10',
+  level: 'info',
+  service: 'Room-1',
+  timestamp: '2025-09-29 20:07:43'
+}
+{
+  message: 'AC turned OFF for Room 1',
+  level: 'info',
+  service: 'AC-Control',
+  timestamp: '2025-09-29 20:07:43'
+}
+{
+  message: 'Lights turned OFF for Room 1',
+  level: 'info',
+  service: 'Light-Control',
+  timestamp: '2025-09-29 20:07:43'
+}
+{
+  message: 'Room 1 occupancy detected: 0 persons (Unoccupied)',
+  level: 'info',
+  service: 'Occupancy-Sensor',
+  timestamp: '2025-09-29 20:07:43'
+}
+{
+  service: 'CommandInvoker',
+  result: { success: true, message: 'Room 1 maximum capacity set to 10.' },
+  level: 'info',
+  message: 'Command executed successfully: Set Room 1 capacity to 10',
+  timestamp: '2025-09-29 20:07:43'
+}
+{
+  message: 'Successfully set Room 1 capacity to 10',
+  level: 'info',
+  service: 'SetRoomCapacityCommand',
+  timestamp: '2025-09-29 20:07:43'
+}
