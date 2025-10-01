@@ -1,4 +1,3 @@
-// models/PatientType.ts
 export interface PatientType {
     id: number;
     name: string;

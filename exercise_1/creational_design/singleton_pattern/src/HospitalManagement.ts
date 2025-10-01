@@ -4,7 +4,7 @@ export class HospitalManagement {
     private static instance: HospitalManagement;
     private patients: Patient[] = [];
 
-    private constructor() { } // Private constructor
+    private constructor() { }
 
     public static getInstance(): HospitalManagement {
         if (!HospitalManagement.instance) {
